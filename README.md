@@ -119,7 +119,7 @@ Version 2 Improvements
  - [ ] various hash functions
  - [ ] `seet_logon_screen()`
 - [ ] Improve fuzzy string matching functionality across all modules (start with `lib.get_closest_match()`)
-- [ ] Add initial forensics capabilities (*forWINsics")
+- [ ] Add initial forensics capabilities (`forWINsics`)
 - [ ] Generalize data conversion and persistance
 - [ ] Implement "stigmergic persistence"
 - [ ] Add web crawler class to win7ools.web
