@@ -125,7 +125,7 @@ Version 2 Improvements
 - [ ] Add web crawler class to win7ools.web
 - [ ] Make `reg.get_values(...)` get key values recursively
 - [ ] Create Windows event handler (evtx log reader/writer)
-- [ ] Integrate Sikuli[sikuli] support
+- [ ] Integrate [Sikuli][sikuli] support
 
 [leet]: https://en.wikipedia.org/wiki/Leet
 [pdf]: http://www.reportlab.com/opensource/
