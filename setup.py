@@ -40,7 +40,7 @@ setup(
         'Intended Audience :: Science/Research',
         'Intended Audience :: System Administrators',
 
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Apache Software License',
  
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
@@ -50,13 +50,13 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['win7ools', 'win7ools.system']),
+    packages=['win7ools', 'win7ools.sysyem'],
 
     # List run-time dependencies here.  These will be installed by pip when your
     # project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/technical.html#install-requires-vs-requirements-files
-    install_requires=['PIL', 'reportlab'],
+    install_requires=[],
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
