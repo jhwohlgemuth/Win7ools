@@ -1,0 +1,94 @@
+﻿  SUMMARY
+=======
+
+A Naval Nuclear Propulsion Officer with a Master's degree in mathematics who excels as an engineer, analyst, and project lead in myriad technical and creative situations and circumstances. A professional with proven aptitude for analyzing data, solving difficult technical and algorithmic problems, displaying complex results visually, and effecting ***process improvement***.
+
+INFORMATION TECHNOLOGY
+======================
+
+Programming Languages
+---------------------
+ * _(Experienced)_ 
+ Python, 
+ JavaScript, 
+ HTML5/CSS3, 
+ XML, 
+ LaTeX, 
+ ActionScript 
+ * _(Familiar)_ 
+ Java SE, 
+ PHP, 
+ MySQL,
+ VBA
+
+Software
+--------
+ * Microsoft Office Suite, Maple, MATLAB, Windows OS, Linux OS, Adobe Photoshop, Adobe Fireworks, Adobe Flash, Visual Studio, Eclipse, Sikuli
+
+SKILLS
+======
+
+Analysis / Problem-Solving
+--------------------------
+ * Completed 9 units of ***operations research*** courses while working toward a Mathematics masters which strengthened my ability to apply mathematics to real-world problems and achieve ***immediate*** process improvement.
+ * Wrote thesis, ["Small World Network Properties of Facebook Group Networks"][thesis]. The research involved leveraging a python Facebook API to retrieve public data from Facebook, then performing statistical and network analysis on the data using assorted python data analysis/visualization modules such as NetworkX.py and Matplotlib, mathematical software such as MATLAB and Maple, and personal scripts. The delivery and defense of the thesis showcased the ability to defend a logical position, speak in public, present large amounts of data, and create documents using LaTeX. ***Thesis has been approved for publication in the scientific journal, *[Complex Systems][Complex Systems]*.***
+ * Performed statistical analysis on large datasets and combined the results with network properties such as clustering coefficients and average shortest paths to obtain a more complete understanding of the data.
+
+Engineering / General Management
+--------------------------------
+ * As a division officer on a submarine, supervised the daily operations of a nuclear reactor and engine room at sea and in port, maintaining electrical power to vital systems throughout the submarine.
+ * Led teams through complex technical evolutions, during maintenance and casualty situations, maximizing efficiency while maintaining a safe environment.
+ * Demonstrated a consistently high ***aptitude for learning*** in multiple learning institutions such as the Navy Nuclear Power School, the Navy's most difficult school(*graduated in the top half*).
+ * As an undergraduate, worked as a lab assistant for the department chair investigating plasma phenomena. Constructed circuitry to detect and analyze ion acoustic waves that was later integrated into an upper level experimental physics laboratory course. 
+
+EXPERIENCE
+==========
+
+07/10 - Present, ***Strategic Plans Officer*** 
+-----------------------------------------------
+_@USSTRATCOM Joint Functional Component Command, Global Strike_
+
+ * Managed program for 20-person division’s flagship web application; defined requirements, enabling more efficient management of development; expanded user community to outside division and command.
+ * Streamlined communication up chain of command and facilitated executive-level, biweekly planning meetings; improved planning process and enabled collaboration and senior leader strategic decision making. 
+ * Consulted with multiple groups in US Strategic Command; provided technical counsel on projects involving ***network analysis*** and ***operations research***; improved products and furthered approval/development process. 
+ * Modernized websites, maintained collaboration tools, created new tools for mission accomplishment, and maintained overall situational picture as division knowledge manager; improved productivity and efficiency. 
+ * Created/managed critical watch station with 6+ watch standers; standardized procedures, analyzed operations and made improvements; synchronized complicated watch/operational schedules and maximized efficiency.
+ * Managed security clearances for 14 employees; developed checklist and streamlined and standardized process; led to no lost work-hours for new arrivals and enabled operational effectiveness in days rather than weeks.
+ * Created a Microsoft Access database application that increased situational awareness for the division.
+ * Taught prevention and response classes for 100+ employees; enabled 100% compliance with new policies.
+ * Rated by commanding officer as “#2 of 19 highly competitive lieutenants.”
+
+05/06 – 07/10, ***Submarine Warfare Officer***
+---------------------------------------------
+_@USS Louisiana (SSBN 743)_
+
+ * Led team to verify 100% of damage control gear prior to sub’s major Operational Reactor Safeguard Exam; ensured zero deficiencies and sub’s ability to combat any casualty, real or simulated, during patrols. 
+ * Led efforts to improve tracking and control of top secret material; drafted and executed aggressive plan that successfully fixed sub’s wayward security program; led to no security-related discrepancies during inspection. 
+ * Selected out of 10 officers as sub’s inaugural LAN officer; essential in writing operating instructions; maintained LAN with 100% compliance and no major discrepancies during inspections. 
+ * Selected to run entire sub while underway as Officer of the Deck through Captain’s off-duty times during mid-watch; ensured safe operations and successful completion of mission vital to national security.
+ * Directed maintenance and repair on millions of dollars of electrical equipment, including sub’s motor generator, and electric plant breakers and interlocks; ensured sub could meet 100% of its underway deadlines. 
+ * Selected to serve as primary engineering officer supervising engine room of 12 people during strenuous sub- wide operational inspection; contributed to sub maintaining high standards and “excellent” performance. 
+ * Volunteered to serve as crew lay leader; established rotational program using wake-ups and watch-reliefs to enable people to attend meetings; increased attendance 150% and improved morale and camaraderie.  
+
+PROFESSIONAL AWARDS
+===================
+
+* __2011__  Joint Service Achievement Medal
+* __2010__  Navy and Marine Corps Achievement 
+  
+EDUCATION
+=========
+
+* __2012__  Master of Arts, Mathematics, University of Nebraska at Omaha
+* __2006__  Bachelor of Arts, Mathematics, University of San Diego
+* __2006__  Bachelor of Arts, Physics, University of San Diego
+   
+OTHER
+=====
+
+* Cleared for Top Secret information and granted access to Sensitive Compartmented Information based on a Single Scope Background Investigation.
+* 2011 - 2013 Tutored local high school students in Geometry and Trigonometry
+* 2012 - 2013 Tutored online with tutor.com in Calculus and Algebra
+
+[thesis]: http://www.jasonwohlgemuth.com/doc/thesis.pdf "Masters Thesis"
+[Complex Systems]: https://www.complex-systems.com/ "Complex Systems Journal"
