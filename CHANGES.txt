@@ -1,1 +1,1 @@
-v1.0, 23 August 2014 -- Initial release.
+v1.0.0, 14 September 2014 -- Initial alpha release.
