@@ -16,14 +16,14 @@ from collections import defaultdict
 from distutils.log import warn
 from PIL import Image
 from subprocess import call
-from wintools.lib import img_loads
-from wintools.lib import log
-from wintools.lib import truncate
-from wintools.ipl import IPL
-from wintools.reg import get_values as values
-from wintools.reg import RegistryKeys
-from wintools.reg import LOCAL_MACHINE, CLASSES_ROOT, CURRENT_USER, ALL_ACCESS
-from wintools.sec import md5
+from win7ools.lib import img_loads
+from win7ools.lib import log
+from win7ools.lib import truncate
+from win7ools.ipl import IPL
+from win7ools.reg import get_values as values
+from win7ools.reg import RegistryKeys
+from win7ools.reg import LOCAL_MACHINE, CLASSES_ROOT, CURRENT_USER, ALL_ACCESS
+from win7ools.sec import md5
 
 class Metadata(object):
     '''

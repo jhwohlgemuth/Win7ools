@@ -9,7 +9,7 @@ from distutils.log import warn
 from xml.etree.cElementTree import parse
 from xml.etree.cElementTree import Element
 from xml.etree.cElementTree import tostring
-from .lib import get_most_frequent
+from win7ools.lib import get_most_frequent
 
 
 class Crawler(object):

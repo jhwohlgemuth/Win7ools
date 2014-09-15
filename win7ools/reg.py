@@ -19,7 +19,7 @@ from distutils.log import warn
 import re
 import string
 from subprocess import call
-from wintools.lib import hex_to_str as h2s
+from win7ools.lib import hex_to_str as h2s
 
 #UMWE == Unix Minus Windows Epoch
 UMWE = 11644473600

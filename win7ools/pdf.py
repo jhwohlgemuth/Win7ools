@@ -13,8 +13,8 @@ from reportlab.platypus import Frame, FrameBreak
 from reportlab.platypus import PageTemplate, NextPageTemplate
 from reportlab.lib.styles import getSampleStyleSheet 
 from reportlab.lib.colors import black, red, green, blue, gray, purple
-from wintools.lib import flatten
-from wintools.lib import timestamp
+from win7ools.lib import flatten
+from win7ools.lib import timestamp
 
 FORBIDDEN = re.compile('[/?<>\\:*|"]')
 

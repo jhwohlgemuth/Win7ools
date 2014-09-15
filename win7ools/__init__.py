@@ -24,9 +24,9 @@ __versioninfo__ = (1, 0, 0)
 import doctest
 import unittest
 from distutils.log import warn
-from .system import System
-from .ipl import IPL
-from .reg import RegistryKeys as keys
+from win7ools.system import System
+from win7ools.ipl import IPL
+from win7ools.reg import RegistryKeys as keys
 
 python_paths = ['C:\\Python27',\
                 'C:\\Python27\\Lib\site-packages',\
@@ -40,7 +40,7 @@ def test():
     modules = ['ipl', 'lib', 'pdf', 'sec']
     for module in modules:
         warn('importing ' + module + ' ...')
-        _temp = __import__('wintools', globals(), locals(), [module], -1)
+        _temp = __import__('win7ools', globals(), locals(), [module], -1)
         mod_test_suite = doctest.DocTestSuite(eval(module))
         suite.addTest(mod_test_suite)        
     runner.run(suite)

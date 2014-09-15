@@ -1,3 +1,0 @@
-[console_scripts]
-trim = win7ools.system:get_trim
-

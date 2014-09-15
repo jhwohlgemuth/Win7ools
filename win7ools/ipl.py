@@ -11,9 +11,9 @@ import string
 from distutils.log import warn
 from pkgutil import iter_modules
 import sqlite3
-from wintools.lib import get_closest_match as closest
-from wintools.lib import timestamp
-from wintools.reg import RegistryKeys, get_values
+from win7ools.lib import get_closest_match as closest
+from win7ools.lib import timestamp
+from win7ools.reg import RegistryKeys, get_values
   
 class IPL(object):
     '''

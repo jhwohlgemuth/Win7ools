@@ -4,7 +4,7 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
  
-with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
+with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
@@ -63,7 +63,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'trim=win7ools.system:get_trim',
+            'trim=win7ools.system:System.get_trim',
         ],
     },
 )
