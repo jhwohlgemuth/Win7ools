@@ -15,29 +15,29 @@ BLOCK_SIZE = 256*128
 
 #passwords_2011 lists the most common passwords from 2011 as listed on the
 #forum of LearnHacking.in
-passwords_2011 = ['123456',\
-                  '12345678',\
-                  'qwerty',\
-                  'abc123',\
-                  'monkey',\
-                  '1234567',\
-                  'letmein',\
-                  'trustno1',\
-                  'dragon',\
-                  'baseball',\
-                  '111111',\
-                  'iloveyou',\
-                  'master',\
-                  'sunshine',\
-                  'ashley',\
-                  'bailey',\
-                  'passw0rd',\
-                  'shadow',\
-                  '123123',\
-                  '654321',\
-                  'superman',\
-                  'qazwsx',\
-                  'michael',\
+passwords_2011 = ['123456',
+                  '12345678',
+                  'qwerty',
+                  'abc123',
+                  'monkey',
+                  '1234567',
+                  'letmein',
+                  'trustno1',
+                  'dragon',
+                  'baseball',
+                  '111111',
+                  'iloveyou',
+                  'master',
+                  'sunshine',
+                  'ashley',
+                  'bailey',
+                  'passw0rd',
+                  'shadow',
+                  '123123',
+                  '654321',
+                  'superman',
+                  'qazwsx',
+                  'michael',
                   'football']
 
 def md5(hashpath, key='', block_size=BLOCK_SIZE):
@@ -258,15 +258,15 @@ def get_dictionary(_from, _to):
                      
                      
 alphabet_eng = list(string.ascii_lowercase + string.digits)
-alphabet_leet = ['4', '8', 'c', 'd', '3', '=', '9', '#', '!', '_', 'k',\
-                '1', 'm', '~', '0', 'D', 'O', '2', '5', '7', 'u',\
+alphabet_leet = ['4', '8', 'c', 'd', '3', '=', '9', '#', '!', '_', 'k',
+                '1', 'm', '~', '0', 'D', 'O', '2', '5', '7', 'u',
                 'V', 'w', 'x', "%", 'z']   
                 
 #abcdefghijklmnopqrstuvwxyz0123456789              
-alphabet_morse = ['._', '_...', '_._.', '_..', '.', '.._.', '__.', '....',\
-                 '..', '.___', '_._', '._..', '__', '_.', '___', '.__.',\
-                 '__._', '._.', '...', '_', '.._', '..._', '.__', '_.._',\
-                 '_.__', '__..', '_____', '.____', '..___', '...__', '...._',\
+alphabet_morse = ['._', '_...', '_._.', '_..', '.', '.._.', '__.', '....',
+                 '..', '.___', '_._', '._..', '__', '_.', '___', '.__.',
+                 '__._', '._.', '...', '_', '.._', '..._', '.__', '_.._',
+                 '_.__', '__..', '_____', '.____', '..___', '...__', '...._',
                  '.....', '_....', '__...', '___..', '____.']
 
 def encode(plain_text, encoding='leet', separator=' '):
