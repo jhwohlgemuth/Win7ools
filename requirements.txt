@@ -1,0 +1,17 @@
+BeautifulSoup==3.2.1
+Cython==0.19.1
+Pillow==2.0.0
+PyOpenGL==3.0.2
+PyOpenGL-accelerate==3.0.2
+SendKeys==0.3
+colorama==0.2.5
+crypto==1.1.0
+networkx==1.7
+numpy==1.7.1
+opencv-python==2.4.2
+pycrypto==2.6
+reportlab==2.7
+requests==2.3.0
+rsa==3.1.4
+scipy==0.12.0
+simplejson==3.3.0
