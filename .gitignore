@@ -1,0 +1,8 @@
+#ignore Visio files
+*.vsd
+docs/*.vsd
+docs/**
+
+#ignore JetBrains related files and folders
+**/.idea
+.idea
