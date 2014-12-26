@@ -6,3 +6,6 @@ docs/**
 #ignore JetBrains related files and folders
 **/.idea
 .idea
+
+#PYPI File
+.pypirc
