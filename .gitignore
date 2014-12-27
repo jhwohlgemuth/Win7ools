@@ -9,3 +9,8 @@ docs/**
 
 #PYPI File
 .pypirc
+
+#Build Files
+/build
+/dist
+/win7ools.egg-info
