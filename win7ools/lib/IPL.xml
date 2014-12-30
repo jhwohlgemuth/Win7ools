@@ -1,0 +1,2839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE IPL [
+
+	<!ELEMENT IPL (modules, programs)>
+
+	<!ELEMENT modules (module)*>
+
+	<!ELEMENT module (#PCDATA)>
+
+	<!ATTLIST module name CDATA #IMPLIED>
+
+	<!ATTLIST module import_name CDATA #IMPLIED>
+
+	<!ATTLIST module install_method (xy | egg | exe | pip) #IMPLIED>
+
+	<!ELEMENT programs (program)*>
+
+	<!ELEMENT program (category, name, version, hash, date, location, GUID, registration, data)>
+
+	<!ATTLIST program backup_required (True | False) #REQUIRED>
+
+	<!ATTLIST program optional (True | False) #REQUIRED>
+
+	<!ATTLIST program silent_install_type (Ninite | tag | none) #REQUIRED>
+
+	<!ATTLIST program silent_install_tag CDATA #REQUIRED>
+
+	<!ELEMENT category (#PCDATA)>
+
+	<!ELEMENT name (#PCDATA)>
+
+	<!ELEMENT version (#PCDATA)>
+
+	<!ELEMENT date (#PCDATA)>
+
+	<!ELEMENT location (#PCDATA)>
+
+	<!ELEMENT GUID (#PCDATA)>
+
+	<!ELEMENT registration (user, email, password)>
+
+	<!ELEMENT user (#PCDATA)>
+
+	<!ELEMENT email (#PCDATA)>
+
+	<!ELEMENT password (#PCDATA)>
+
+	<!ELEMENT data (#PCDATA)>
+
+	<!ENTITY test-entity "THIS IS ONLY A TEST">
+
+	<!ENTITY banana SYSTEM "DTD_test.txt">
+
+]>
+
+<IPL>
+
+	<modules>
+
+		<module name="pip" import_name="pip" install_method="xy"/>
+
+		<module name="NetworkX" import_name="networkx" install_method="xy"/>
+
+		<module name="Parallel Python" import_name="pp" install_method="xy"/>
+
+		<module name="pywinauto" import_name="pywinauto" install_method="xy"/>
+
+		<module name="NumPy" import_name="numpy" install_method="xy"/>
+
+		<module name="SciPy" import_name="scipy" install_method="xy"/>
+
+		<module name="matplotlib" import_name="matplotlib" install_method="xy"/>
+
+		<module name="Cython" import_name="cython" install_method="xy"/>
+
+		<module name="PyWin" import_name="pywin" install_method="xy"/>
+
+		<module name="IPython" import_name="IPython" install_method="xy"/>
+
+		<module name="pyreadline" import_name="pyreadline" install_method="xy"/>
+
+		<module name="PIL" import_name="PIL" install_method="xy"/>
+
+		<module name="py2exe" import_name="py2exe" install_method="xy"/>
+
+		<module name="pandas" import_name="pandas" install_method="xy"/>
+
+		<module name="ReportLab" import_name="reportlab" install_method="xy"/>
+
+		<module name="OpenCV" import_name="opencv" install_method="xy"/>
+
+		<module name="PyCUDA" import_name="pycuda" install_method="xy"/>
+
+		<module name="PyOpenCL" import_name="pyopencl" install_method="xy"/>
+
+		<module name="PyCrypto" import_name="Crypto" install_method="xy"/>
+
+		<module name="PyVot" import_name="xl" install_method="egg"/>
+
+		<module name="PyKinect" import_name="pykinect" install_method="egg"/>
+
+		<module name="Beautiful Soup 4" import_name="bs4" install_method="pip"/>
+
+		<module name="PyYAML" import_name="yaml" install_method="pip"/>
+
+		<module name="NLTK" import_name="nltk" install_method="pip"/>
+
+		<module name="SQLAlchemy" import_name="SQLAlchemy" install_method="pip"/>
+
+		<module name="pyquery" import_name="pyquery" install_method="pip"/>
+
+		<module name="Autopy" import_name="autopy" install_method="exe"/>
+
+		<module name="SimpleCV" import_name="SimpleCV" install_method="exe"/>
+
+	</modules>
+
+	<programs>
+
+	<!-- ///////////////////////////////////////////////////////////////////DATA -->
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Dropbox</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Microsoft SkyDrive</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Google Drive</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Evernote</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Bitcasa</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Box Sync</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>Cubby</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>MediaFire Desktop</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Data</category>
+
+			<name>SyncBackSE</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+	<!-- ///////////////////////////////////////////////////////////////////DESIGN -->
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Design</category>
+
+			<name>Adobe CS6</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Design</category>
+
+			<name>Axialis IconWorkshop</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+	<!-- ///////////////////////////////////////////////////////////////////DEV -->
+
+        <program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+            <category>Dev</category>
+
+            <name>Node.js</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+        <program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+            <category>Dev</category>
+
+            <name>MongoDB</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Git</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+			<category>Dev</category>
+
+			<name>VirtualBox</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Vagrant</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+        <program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+            <category>Dev</category>
+
+            <name>Windows XP Mode</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+			<category>Dev</category>
+
+			<name>Python</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+        <program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+            <category>Dev</category>
+
+            <name>Julia Language</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Kinect for Windows SDK</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Kinect for Windows Drivers</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Kinect for Windows Developer Toolkit</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data>Requires Kinect for Windows SDK</data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Kinect for Windows SDK</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="--mode unattended --unattendedmodeui minimal">
+
+			<category>Dev</category>
+
+			<name>XAMPP</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Microsoft Visual Studio Professional 2012</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Python Tools for Visual Studio 2012</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data>Requires Microsoft Visual Studio Professional 2012</data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Eclipse</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Sifteo Sync</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>NVIDIA CUDA Toolkit</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>NVIDIA CUDA Tools SDK</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Dev</category>
+
+			<name>Brackets</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+        <program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+            <category>Dev</category>
+
+            <name>Light Table</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+        <program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+            <category>Dev</category>
+
+            <name>JetBrains WebStorm</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+        <program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+            <category>Dev</category>
+
+            <name>JetBrains PyCharm Professional</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+        <program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+            <category>Dev</category>
+
+            <name>JetBrains RubyMine</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+	<!-- ///////////////////////////////////////////////////////////////////HARDWARE -->
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Hardware</category>
+
+			<name>WIDCOMM Bluetooth Software</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data>Driver for bluetooth dongle</data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Hardware</category>
+
+			<name>Logitech Setpoint</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Hardware</category>
+
+			<name>Leap Motion Software</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Hardware</category>
+
+			<name>Bamboo</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="True" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Hardware</category>
+
+			<name>Neat</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Hardware</category>
+
+			<name>Samsung Magician</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data>SSD management software</data>
+
+		</program>
+
+	<!-- ///////////////////////////////////////////////////////////////////MEDIA -->
+
+		<program backup_required="True" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>iTunes</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>Quicktime</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>VLC Media Player</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>Combined Community Codec Pack</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>K-lite Codec Pack</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>Plex Media Server</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>PlayLater</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>PlayOn</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>Freemake Video Converter</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>Freemake Youtube MP3 Converter</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>AVS4YOU Software Navigator</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>AnyDVD</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>CloneDVDmobile</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>LightScribe System Software</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>LightScribe Applications</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>LighScribe Template Labeler</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Media</category>
+
+			<name>TuneUp</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="tag" silent_install_tag="/S">
+
+			<category>Media</category>
+
+			<name>Handbrake</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+	<!-- ///////////////////////////////////////////////////////////////////SECURITY -->
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>COMODO Firewall</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data>Should be installed last</data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>Malwarebytes Anti-Malware</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>Secunia PSI</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="tag" silent_install_tag="/silent">
+
+			<category>Security</category>
+
+			<name>PerformanceTest</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>Cypherix</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>Secure IT</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>Spybot</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>mSecure</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Security</category>
+
+			<name>PuTTY</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+	<!-- ///////////////////////////////////////////////////////////////////UTILITIES -->
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>Google Chrome</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>Mozilla Firefox</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>VNC Server</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data>RealVNC</data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>7-Zip</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>TeraCopy</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>FileZilla Client</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>WinMerge</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/silent">
+
+			<category>Utilities</category>
+
+			<name>LockHunter</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/S">
+
+			<category>Utilities</category>
+
+			<name>WinEdt</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+        <program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+            <category>Utilities</category>
+
+            <name>TeX Live 2013</name>
+
+            <version></version>
+
+            <hash></hash>
+
+            <date></date>
+
+            <location></location>
+
+            <GUID></GUID>
+
+            <registration>
+
+                <user></user>
+
+                <email></email>
+
+                <password></password>
+
+            </registration>
+
+            <data></data>
+
+        </program>
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>MiKTeX</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>Maple</name>
+
+			<version>14</version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>Microsoft Office</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>	
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>Microsoft Office Visio 2010</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>		
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>MultiBit</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>Skype</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="/quiet /passive /norestart">
+
+			<category>Utilities</category>
+
+			<name>Pandoc</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="True" silent_install_type="none" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>WinUndelete</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>Utilities</category>
+
+			<name>WinDirStat</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+	<!-- ///////////////////////////////////////////////////////////////////UX -->
+
+		<program backup_required="False" optional="False" silent_install_type="Ninite" silent_install_tag="">
+
+			<category>UX</category>
+
+			<name>Launchy</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="True" optional="False" silent_install_type="tag" silent_install_tag="/SILENT">
+
+			<category>UX</category>
+
+			<name>DisplayFusion</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+		<program backup_required="True" optional="False" silent_install_type="tag" silent_install_tag="/s">
+
+			<category>UX</category>
+
+			<name>ObjectDock</name>
+
+			<version></version>
+
+			<hash></hash>
+
+			<date></date>
+
+			<location></location>
+
+			<GUID></GUID>
+
+			<registration>
+
+				<user></user>
+
+				<email></email>
+
+				<password></password>
+
+			</registration>
+
+			<data></data>
+
+		</program>
+
+	</programs>
+
+</IPL>
