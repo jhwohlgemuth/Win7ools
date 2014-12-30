@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE data [
+	<!ELEMENT data (item)*>
+	<!ELEMENT item (#PCDATA)>
+	<!ATTLIST item data CDATA #REQUIRED>
+]>
+<data>
+	<item key="">item1</item>
+	<item key="">item2</item>
+	<item key="">item3</item>
+	<item key="">item4</item>
+	<item key="">item5</item>
+	<item key="">item6</item>
+	<item key="">item7</item>
+	<item key="">item8</item>
+	<item key="">item9</item>
+	<item key="">item10</item>
+</data>

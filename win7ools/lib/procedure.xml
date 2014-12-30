@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE list [
+	<!ELEMENT list (items)>
+	<!ELEMENT items (item)*>
+	<!ELEMENT item (#PCDATA)>
+	<!ATTLIST item order CDATA #REQUIRED>
+]>
+<list>
+	<items>
+		<item order='1'>Unplug Peripherals</item>
+		<item order='2'>Plug in wired mouse and keyboard</item>
+		<item order='3'>Reset BIOS to defaults</item>
+		<item order='4'>Install OS (Win7)</item>
+		<item order='5'>Install ASUS Software (ASUS InstAll, uncheck Norton)</item>
+		<item order='6'>Install GPU driver / SLI Enhancement</item>
+		<item order='7'>Install DirectX</item>
+		<item order='8'>Set Performance Settings ==> [High Performance]</item>
+		<item order='9'>Disable Hibernation / Sleep</item>
+		<item order='10'>Plug in ethernet cable</item>
+		<item order='11'>Select shared items ==> [None]</item>
+		<item order='12'>Record Home Group Password:</item>
+		<item order='13'>Activate Windows</item>
+		<item order='14'>Change Workgroup to [VEDA CLUSTER]</item>
+		<item order='15'>Windows Update (repeat until no new updates available)</item>
+		<item order='16'>Remove UAC</item>
+		<item order='17'>Activate drives: PHINEAS(X), FERB(Y), NEXUS(X), ARCHIVE(A)</item>
+		<item order='18'>Install Python(x,y)</item>
+		<item order='19'>Run Ninite.exe</item>
+		<item order='20'>Install remaining software</item>
+		<item order='21'>Configure software</item>
+		<item order='22'>Configure Start menu (15 items, library links, etc...)</item>
+		<item order='23'>Record Windows Experience Index:</item>
+		<item order='24'>Cloud quicklaunch icons ==> [always show]</item>
+		<item order='25'>Create TrueCrypt on X drive</item>
+		<item order='26'>Print IPL and verify completion</item>
+	</items>
+</list>
