@@ -10,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='win7ools',
 
-    version='1.0.1',
+    version='0.3.0',
 
     description='Python project that provides programmatic access to the Windows OS',
     long_description=long_description,
