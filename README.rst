@@ -67,7 +67,7 @@ Examples
 **Use win7ools.pdf to create a shopping list:**
  ::
 
-    from wintools.pdf import Checklist
+    from win7ools.pdf import Checklist
     cl = Checklist()
     cl.set_title('My Shopping List').set_pretext('Do not forget to bring a calculator')
     items = ['apples', 'pears', 'broccoli', 'bread', 'chicken', 'soda']
@@ -79,14 +79,14 @@ Examples
 **Use win7ools.ipl to print names of installed software:**
  ::
 
-    from wintools.ipl import IPL
+    from win7ools.ipl import IPL
     ipl = IPL()  
     ipl.print_names()
 
-**Use wint7ools.reg to print names of software run on host computer with the last run date and count:**
+**Use win7ools.reg to print names of software run on host computer with the last run date and count:**
  ::
 
-    from wintools.reg import get_user_assist()
+    from win7ools.reg import get_user_assist()
     user_assist = get_user_assist()
     for item in user_assist:
         print(item['value'], item['lastrun'], item['count'])
