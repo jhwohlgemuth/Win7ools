@@ -76,7 +76,7 @@ items = ['apples', 'pears', 'broccoli', 'bread', 'chicken', 'soda']
 cl.add(items)
 cl.save()
 ```
-*win7ools.pdf can check, uncheck, and highlight items.  One and two-column format is supported.*
+*win7ools.pdf can check, un-check, and highlight items.  One and two-column format is supported.*
 
 **Use win7ools.ipl to print names of installed software:**
 ```python
