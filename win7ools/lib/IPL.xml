@@ -574,7 +574,7 @@
 
 		</program>
 
-		<program backup_required="False" optional="False" silent_install_type="none" silent_install_tag="">
+		<program backup_required="False" optional="False" silent_install_type="tag" silent_install_tag="msiexec /qn /i path/to/vagrant.msi VAGRANTAPPDIR=C:\Vagrant">
 
 			<category>Dev</category>
 
