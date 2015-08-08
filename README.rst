@@ -86,7 +86,7 @@ Examples
 **Use win7ools.reg to print names of software run on host computer with the last run date and count:**
  ::
 
-    from win7ools.reg import get_user_assist()
+    from win7ools.reg import get_user_assist
     user_assist = get_user_assist()
     for item in user_assist:
         print(item['value'], item['lastrun'], item['count'])

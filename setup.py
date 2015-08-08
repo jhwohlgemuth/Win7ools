@@ -15,10 +15,10 @@ setup(
     description='Python project that provides programmatic access to the Windows OS',
     long_description=long_description,
 
-    url='https://github.com/nexuslevel/Win7ools',
+    url='https://github.com/jhwohlgemuth/Win7ools',
 
     author='Jason Wohlgemuth',
-    author_email='jason.h.wohlgemuth@gmail.com',
+    author_email='jhwohlgemuth@gmail.com',
 
     license='MIT',
 
