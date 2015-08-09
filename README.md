@@ -1,4 +1,4 @@
-Win7ools Project ![https://img.shields.io/badge/Win7ools-Trello-blue.svg](https://trello.com/b/L1NgahDj/win7ools)
+Win7ools Project [![Win7ools Trello Board](https://img.shields.io/badge/Win7ools-Trello-blue.svg)](https://trello.com/b/L1NgahDj/win7ools)
 ================
 
 **Win7ools** (= *Win7 Tools* + [leet][leet]) provides programmatic access to the Windows
